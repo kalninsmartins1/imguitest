@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\events">
+      <UniqueIdentifier>{d2e74e7e-1f7c-4500-831e-047971d6187c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{8fa05c1d-dfe7-41b8-91b8-cf55b585c654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\events">
+      <UniqueIdentifier>{987e3cb2-1260-4374-9fb8-825546c7b161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{3d3db882-5297-4aee-bc2d-d8ddbf708838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{e3852200-5603-4a82-92e1-34be74afb7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{971d524b-3734-4ce6-aaa5-4c5915b9748f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CarMechanicGarage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JobList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptJobEvent.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyToolEvent.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListener.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryTab.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpTab.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="JobResultEvent.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="JobListTab.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopTab.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBoughtEvent.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JobList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarMechanicGarage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptJobEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyToolEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventType.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBoughtEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="JobResultEvent.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="JobListTab.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryTab.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpTab.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopTab.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\backends\imgui_impl_dx11.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\backends\imgui_impl_win32.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
